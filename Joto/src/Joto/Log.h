@@ -6,7 +6,7 @@
 #include "spdlog/spdlog.h"
 
 namespace Joto {
-	class Joto_API Log
+	class JOTO_API Log
 	{
 	public:
 		static void Init();

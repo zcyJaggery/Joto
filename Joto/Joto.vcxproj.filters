@@ -1,42 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Joto">
+      <UniqueIdentifier>{218B877C-0DC2-880D-B6AE-6E10A2C4040F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Joto\Events">
+      <UniqueIdentifier>{E5472F3D-51FD-A732-DAF1-A10946A69E36}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Joto\Core.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Joto.h" />
     <ClInclude Include="src\Joto\Application.h">
-      <Filter>头文件</Filter>
+      <Filter>Joto</Filter>
     </ClInclude>
-    <ClInclude Include="src\Joto.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="src\Joto\Core.h">
+      <Filter>Joto</Filter>
     </ClInclude>
     <ClInclude Include="src\Joto\EntryPoint.h">
-      <Filter>头文件</Filter>
+      <Filter>Joto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Joto\Events\ApplicationEvent.h">
+      <Filter>Joto\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Joto\Events\Event.h">
+      <Filter>Joto\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Joto\Events\KeyEvent.h">
+      <Filter>Joto\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Joto\Events\MouseEvent.h">
+      <Filter>Joto\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Joto\Log.h">
-      <Filter>头文件</Filter>
+      <Filter>Joto</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Joto\Application.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Joto</Filter>
     </ClCompile>
     <ClCompile Include="src\Joto\Log.cpp">
-      <Filter>源文件</Filter>
+      <Filter>Joto</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

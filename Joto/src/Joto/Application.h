@@ -3,7 +3,7 @@
 #include "Core.h"
 
 namespace Joto {
-	class Joto_API Application
+	class JOTO_API Application
 	{
 	public:
 		Application();
