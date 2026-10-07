@@ -17,6 +17,8 @@ workspace "Joto"
         targetdir ("bin/"..outputdir.."/%{prj.name}")
         objdir ("bin-int/"..outputdir.."/%{prj.name}")
 
+        pchheader "jtpch.h"
+        pchsource "Joto/src/jtpch.cpp"
 
         files
         {

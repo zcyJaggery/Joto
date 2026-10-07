@@ -2,8 +2,6 @@
 
 #include "Joto/Core.h"
 
-#include <string>
-#include <functional>
 
 namespace Joto {
 	enum class EventType {

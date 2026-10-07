@@ -34,6 +34,7 @@
     <ClInclude Include="src\Joto\Log.h">
       <Filter>Joto</Filter>
     </ClInclude>
+    <ClInclude Include="src\jtpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Joto\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Joto\Log.cpp">
       <Filter>Joto</Filter>
     </ClCompile>
+    <ClCompile Include="src\jtpch.cpp" />
   </ItemGroup>
 </Project>
